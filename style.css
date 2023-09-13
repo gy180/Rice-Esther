@@ -1,0 +1,221 @@
+:root {
+    --container-height: 2318px;
+    --container-width: 1440px;
+    --header-height: 262px;
+  }
+  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+html {
+  font-size: 20px;
+}
+
+.container{
+    width: var(--container-width);
+    height: var(--container-height);
+    margin-left:auto;
+    margin-right: auto;
+    background: linear-gradient(124deg, #00205B 43.85%, #2591BF 95.83%)
+}
+
+/* header */
+header{
+    width: 100%;
+    height: var(--header-height);
+}
+
+.box{
+    width: var(--container-width);
+    height: 200px;
+    flex-shrink: 0; 
+    background: #ADC7DC;
+    position: absolute;
+}
+
+
+.tab{
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    flex-shrink: 0;
+    fill: #FFF;
+    filter: drop-shadow(4px 0px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* icons */
+.ricec{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 70px;
+}
+
+.home form button{
+    position: absolute;
+    margin-left: 1065px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+}
+
+.notif form button{
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+}
+
+.profile form button{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+}
+
+/* search bar */
+.search {
+    position: absolute;
+    width: 555px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #E0E2E6;
+    margin-left: 70px;
+    margin-top: 160px;
+    
+} 
+
+.search form button{
+    position: absolute;
+    margin-left: 485px;
+    margin-top: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+}
+.search form input{
+    position: absolute;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Cormorant Garamond";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: transparent;
+    border:none;
+    margin-left: 45px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.calendar form h1{
+    position:absolute;
+    color: #303B61;
+    /* labels */
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 802px;
+    margin-top: 210px;
+}
+.calendar form button{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 145px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+    
+}
+
+.help h1{
+    position:absolute;
+    color: #303B61;
+    /* labels */
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+.help{
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 138px;
+
+}
+
+.forms h1{
+    position:absolute;
+    color: #303B61;
+    /* labels */
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -1px;
+    margin-left: 13px;
+}
+
+.forms{
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 140px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+}
+.fav form h1{
+    position:absolute;
+    color: #303B61;
+    /* labels */
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1215px;
+    margin-top: 210px;
+}
+
+.fav form button{
+    position: absolute;
+    margin-left: 1210px;
+    margin-top: 138px;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
